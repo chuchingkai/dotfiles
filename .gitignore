@@ -1,0 +1,4 @@
+# tmux plugins
+tmux/.tmux/
+# vim plugins
+vim/.vim/
