@@ -27,14 +27,14 @@
 " => vim-plug
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Install vim-plug automatically if it's not installed
-if empty(glob('~/.vim/autoload/plug.vim'))
-  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+if empty(glob('~/dotfiles/vim/.vim/autoload/plug.vim'))
+  silent !curl -fLo ~/dotfiles/vim/.vim/autoload/plug.vim --create-dirs
     \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
 " Plugins will be downloaded under the specified directory.
-call plug#begin('~/.vim/plugged')
+call plug#begin('~/dotfiles/vim/.vim/plugged')
 
 " Declare the list of plugins.
 Plug 'scrooloose/nerdtree'
