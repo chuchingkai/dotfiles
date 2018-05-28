@@ -92,6 +92,8 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias isc="osc -A https://api.suse.de"
+alias osc="osc -A https://api.opensuse.org"
 
 # Key-bindings
 bindkey '\e[1;3D' backward-word
