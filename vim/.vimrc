@@ -47,6 +47,7 @@ Plug 'klen/python-mode'
 Plug 'NLKNguyen/papercolor-theme'
 Plug 'vim-perl/vim-perl'
 Plug 'mileszs/ack.vim'
+Plug 'pangloss/vim-javascript'
 " plugin for vim-orgmode
 Plug 'jceb/vim-orgmode'
 Plug 'vim-scripts/speeddating.vim'
